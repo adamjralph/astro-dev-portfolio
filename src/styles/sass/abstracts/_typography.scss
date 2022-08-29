@@ -1,0 +1,26 @@
+:root {
+  --ff-body: "Heebo", sans-serif;
+  --heading: "Oswald", sans-serif;
+
+  // Fonts
+  --ff-primary: "Barlow", sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+  font-family: var(--ff-primary);
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cl-neutral-black);
+}

@@ -1,0 +1,81 @@
+---
+import Layout from "../layouts/Layout.astro"
+import "../styles/sass/style.scss"
+---
+
+<Layout>
+  <div class="container">
+    <header id="header" class="header">
+      <!-- Navigation mobile -->
+      <div class="hamburger-logo">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+          <a href="#about" class="nav__link">about</a>
+          <a href="#projects" class="nav__link">projects</a>
+
+          <a href="#contact" class="nav__btn-text"
+            ><button class="btn nav__btn nav__link">Lets Talk</button>
+          </a>
+        </nav>
+        <!-- Logo -->
+        <div class="logo--mobile">
+          <h1 class="logo__heading">adam</h1>
+        </div>
+      </div>
+
+      <!-- Navigation Tablet/Desktop -->
+      <div class="header__logo">
+        <h1 class="logo__heading">adam</h1>
+      </div>
+
+      <!-- Header image -->
+      <div class="header__image"></div>
+
+      <!-- Social links -->
+      <div class="header__social">
+        <!-- Twitter -->
+        <a
+          href="http://twitter.com/adamjralph"
+          class="social__link social__link--twitter"
+        >
+          <i class="fa-brands fa-twitter header__social__icon--twitter"></i>
+        </a>
+        <!-- Youtube-->
+        <a
+          href="https://www.youtube.com/channel/UCRMH3kvPD8o1Khssr4A8EWg"
+          class="social__link social__link--youtube"
+        >
+          <i class="fa-brands fa-youtube header__social__icon--youtube"></i>
+        </a>
+        <!-- Github -->
+        <a
+          href="https://github.com/adamjralph"
+          class="social__link social__link--github"
+        >
+          <i class="fa-brands fa-github header__social__icon--github"></i>
+        </a>
+      </div>
+      <!-- Navigation -->
+      <nav class="nav">
+        <a href="#about" class="nav__link">about</a>
+        <a href="#projects" class="nav__link">projects</a>
+
+        <a href="#contact" class="nav__btn-text"
+          ><button class="btn nav__btn nav__link">Lets Talk</button>
+        </a>
+      </nav>
+    </header>
+  </div>
+  <div class="container">
+    <main id="main" class="main">
+      <section id="hero" class="hero">
+        <h1 class="hero__heading">Welcome to my portfolio...</h1>
+      </section>
+      <h1 class="hero__heading hero__heading--2">
+        I'm a front end developer based in Melbourne
+      </h1>
+    </main>
+  </div>
+</Layout>
